@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1FA09804225D4438008FE044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA09803225D4438008FE044 /* AppDelegate.swift */; };
-		1FA09806225D4438008FE044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA09805225D4438008FE044 /* ViewController.swift */; };
 		1FA09809225D4438008FE044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA09807225D4438008FE044 /* Main.storyboard */; };
 		1FA0980C225D4438008FE044 /* RegistroCursos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0980A225D4438008FE044 /* RegistroCursos.xcdatamodeld */; };
 		1FA0980E225D443A008FE044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA0980D225D443A008FE044 /* Assets.xcassets */; };
 		1FA09811225D443A008FE044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA0980F225D443A008FE044 /* LaunchScreen.storyboard */; };
+		1FA09819225D44F2008FE044 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA09818225D44F2008FE044 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FA09800225D4438008FE044 /* RegistroCursos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegistroCursos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA09803225D4438008FE044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FA09805225D4438008FE044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FA09808225D4438008FE044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FA0980B225D4438008FE044 /* RegistroCursos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RegistroCursos.xcdatamodel; sourceTree = "<group>"; };
 		1FA0980D225D443A008FE044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA09810225D443A008FE044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FA09812225D443A008FE044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA09818225D44F2008FE044 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				1FA09803225D4438008FE044 /* AppDelegate.swift */,
-				1FA09805225D4438008FE044 /* ViewController.swift */,
+				1FA09818225D44F2008FE044 /* TableViewController.swift */,
 				1FA09807225D4438008FE044 /* Main.storyboard */,
 				1FA0980D225D443A008FE044 /* Assets.xcassets */,
 				1FA0980F225D443A008FE044 /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FA0980C225D4438008FE044 /* RegistroCursos.xcdatamodeld in Sources */,
-				1FA09806225D4438008FE044 /* ViewController.swift in Sources */,
+				1FA09819225D44F2008FE044 /* TableViewController.swift in Sources */,
 				1FA09804225D4438008FE044 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
